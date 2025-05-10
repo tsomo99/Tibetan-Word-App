@@ -1,1 +1,1 @@
-# Tibetan-Word-App
+# Tibetan Word App
