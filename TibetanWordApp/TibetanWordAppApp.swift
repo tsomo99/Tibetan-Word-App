@@ -1,17 +1,13 @@
-//
-//  TibetanWordAppApp.swift
-//  TibetanWordApp
-//
-//  Created by de de on 2025/5/11.
-//
-
 import SwiftUI
 
 @main
 struct TibetanWordAppApp: App {
+    let persistenceController = PersistenceController.shared
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WordListView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
