@@ -6,7 +6,7 @@ struct TibetanWordAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            WordListView()
+            ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
