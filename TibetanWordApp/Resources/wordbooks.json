@@ -1,0 +1,19 @@
+[
+   {
+     "book": "动物",
+     "words": [
+       { "tibetan": "གཡག", "meaningCN": "牦牛" },
+       { "tibetan": "བྱ", "meaningCN": "鸟" },
+       { "tibetan": "གཟིག", "meaningCN": "老虎" }
+     ]
+   },
+   {
+     "book": "身体部位",
+     "words": [
+       { "tibetan": "མིག", "chinese": "眼睛" },
+       { "tibetan": "ལག", "chinese": "手" },
+       { "tibetan": "རྐང་པ", "chinese": "脚" }
+     ]
+   }
+ ]
+
