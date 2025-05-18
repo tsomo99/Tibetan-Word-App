@@ -16,9 +16,9 @@ extension WordBookEntity {
         return NSFetchRequest<WordBookEntity>(entityName: "WordBookEntity")
     }
 
-    @NSManaged public var id: UUID?
-    @NSManaged public var title: String?
-    @NSManaged public var words: NSSet?
+    @NSManaged public var id: UUID
+    @NSManaged public var title: String
+    @NSManaged public var words: NSSet
 
 }
 

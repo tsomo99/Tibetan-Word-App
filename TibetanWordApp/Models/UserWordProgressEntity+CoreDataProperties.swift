@@ -16,12 +16,12 @@ extension UserWordProgressEntity {
         return NSFetchRequest<UserWordProgressEntity>(entityName: "UserWordProgressEntity")
     }
 
-    @NSManaged public var id: UUID?
-    @NSManaged public var lastReviewed: Date?
+    @NSManaged public var id: UUID
+    @NSManaged public var lastReviewed: Date
     @NSManaged public var reviewCount: Int16
-    @NSManaged public var status: String?
-    @NSManaged public var user: String?
-    @NSManaged public var word: String?
+    @NSManaged public var status: String
+    @NSManaged public var user: String
+    @NSManaged public var word: String
 
 }
 

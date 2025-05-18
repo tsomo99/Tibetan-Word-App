@@ -16,13 +16,13 @@ extension WordEntity {
         return NSFetchRequest<WordEntity>(entityName: "WordEntity")
     }
 
-    @NSManaged public var book: String?
-    @NSManaged public var id: UUID?
-    @NSManaged public var meaningCN: String?
-    @NSManaged public var meaningEN: String?
-    @NSManaged public var tibetan: String?
-    @NSManaged public var transliteration: String?
-    @NSManaged public var wordBook: WordBookEntity?
+    @NSManaged public var book: String
+    @NSManaged public var id: UUID
+    @NSManaged public var meaningCN: String
+    @NSManaged public var meaningEN: String
+    @NSManaged public var tibetan: String
+    @NSManaged public var transliteration: String
+    @NSManaged public var wordBook: WordBookEntity
 
 }
 

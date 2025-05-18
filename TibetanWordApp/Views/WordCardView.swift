@@ -1,3 +1,11 @@
+//
+//  WordCardView.swift
+//  TibetanWordApp
+//
+//  Created by de de on 2025/5/18.
+//
+
+import SwiftUI
 struct WordCardView: View {
     var word: WordEntity
     @State private var showMeaning = false
